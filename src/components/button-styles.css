@@ -1,0 +1,25 @@
+.primary-button {
+  background-color: var(--blue500);
+  color: var(--gray100);
+  border: none;
+  border-radius: 16px;
+  padding: 16px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  height: 56px;
+  width: 100%;
+}
+
+.delete-button {
+  width: 100%;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid var(--red500);
+  background: var(--red100);
+  color: var(--red600);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}

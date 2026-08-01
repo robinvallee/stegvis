@@ -1,0 +1,8 @@
+[
+  { "name": "Fotboll", "value": 32, "color": "#FF3B30" },
+  { "name": "Promenad", "value": 21, "color": "#AF52DE" },
+  { "name": "Gym", "value": 17, "color": "#FFCC00" },
+  { "name": "Spring", "value": 12, "color": "#007AFF" },
+  { "name": "Basket", "value": 10, "color": "#FF9500" },
+  { "name": "Tennis", "value": 8, "color": "#34C759" }
+]

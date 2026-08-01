@@ -1,0 +1,351 @@
+:root {
+  /* Färger */
+  --not-selected: #6A7282FF;
+  --red100: #FFF5F6FF;
+  --red200: #FFC8CDFF;
+  --red300: #FF848EFF;
+  --red400: #FF707CFF;
+  --red500: #FF3849FF;
+  --red600: #CC2D3AFF;
+  --red700: #99222CFF;
+  --red800: #66171EFF;
+  --red900: #330B0EFF;
+  --yellow100: #FFFCEFFF;
+  --yellow200: #FFF2B6FF;
+  --yellow300: #FFE98DFF;
+  --yellow400: #FFE063FF;
+  --yellow500: #FFDE21FF;
+  --yellow600: #CCB219FF;
+  --yellow700: #998613FF;
+  --yellow800: #66590CFF;
+  --yellow900: #332D06FF;
+  --orange100: #FFF8EFFF;
+  --orange200: #FFD19BFF;
+  --orange300: #FFBC66FF;
+  --orange400: #FFA930FF;
+  --orange500: #FF9800FF;
+  --orange600: #CC7A00FF;
+  --orange700: #995C00FF;
+  --orange800: #663D00FF;
+  --orange900: #331F00FF;
+  --purple100: #FAEFFFFF;
+  --purple200: #E3A7FCFF;
+  --purple300: #C875F8FF;
+  --purple400: #B14BF3FF;
+  --purple500: #9D00FFFF;
+  --purple600: #7500BFFF;
+  --purple700: #53008EFF;
+  --purple800: #39005DFF;
+  --purple900: #1E002CFF;
+  --blue100: #EFF6FFFF;
+  --blue200: #94B3FCFF;
+  --blue300: #6291FBFF;
+  --blue400: #306EFBFF;
+  --blue500: #155DFCFF;
+  --blue600: #124FD2FF;
+  --blue700: #0E409EFF;
+  --blue800: #0B306AFF;
+  --blue900: #071136FF;
+  --green100: #EFFFF6FF;
+  --green200: #B3F1D0FF;
+  --green300: #8CEABCFF;
+  --green400: #5DE2A7FF;
+  --green500: #1BCD8EFF;
+  --green600: #13A370FF;
+  --green700: #0C7B53FF;
+  --green800: #043C27FF;
+  --green900: #011B0FFF;
+  --gray100: #FFFFFFFF;
+  --gray200: #F0F0F0FF;
+  --gray300: #D4D4D8FF;
+  --gray400: #A1A1AAFF;
+  --gray500: #71717AFF;
+  --gray600: #52525BFF;
+  --gray700: #3F3F46FF;
+  --gray800: #27272AFF;
+  --gray900: #18181BFF;
+  --aktiv-energi: #E26E22FF;
+  --distans: #DF41E2FF;
+  --aktiv-tid: #12A3B7FF;
+  --steg: #6F27FFFF;
+  --aktiva-dagar: #08A725FF;
+  --reflektion: #3236FFFF;
+  --streak: #B28B0B;
+  --workouts: #CA442C;
+
+  /* Skuggor */
+  --blue-shadow: 0 0px 16px 0 rgba(21, 93, 252,0.1);
+  --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Generell styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Text Styles */
+h1 {
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: var(--gray900);
+}
+
+h2 {
+  font-family: Inter;
+  font-size: 22px;
+  line-height: 20px;
+  letter-spacing: -1px;
+  font-weight: 500;
+  color: var(--gray900);
+}
+
+h3 {
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: -1px;
+  font-weight: 500;
+}
+
+.body-statistik {
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -0.4px;
+  font-weight: 500;
+}
+
+.body-bold {
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.4px;
+  font-weight: 400;
+}
+
+p {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.4px;
+}
+
+.small-body {
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.4px;
+  font-weight: 400;
+}
+
+.helptext {
+  font-family: Inter;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.3px;
+  font-weight: 400;
+}
+
+/* Icon Styles */
+
+.icon-steg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--steg);
+  stroke-width: 1.67px;
+}
+
+.icon-distans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--distans);
+  stroke-width: 1.67px;
+}
+
+.icon-aktiv-tid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--aktiv-tid);
+  stroke-width: 1.67px;
+}
+
+.icon-aktiv-energi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--aktiv-energi);
+  stroke-width: 1.67px;
+}
+
+.icon-feeling {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--reflektion);
+  stroke-width: 1.67px;
+}
+
+.icon-aktiva-dagar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--aktiva-dagar);
+  stroke-width: 1.67px;
+}
+
+.icon-workouts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--workouts);
+  stroke-width: 1.67px;
+}
+
+.icon-streak {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--streak);
+  stroke-width: 1.67px;
+}
+
+
+.icon-blue {
+  color: var(--blue500);
+  stroke-width: 1.67px;
+}
+
+.icon-gray {
+  color: var(--gray400);
+}
+
+/* Container/Grid Styles */
+.section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.logging-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.activity-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.activity-search-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.goals-grid {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.quick-log-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.activity-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.stats-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.stats-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0px;
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.app-container {
+  max-width: 402px;
+  height: 875px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  background-color: var(--gray100);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Input Styles */
+.input-card {
+  background-color: var(--gray100);
+  border: 1px solid var(--gray300);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.input-card-icon {
+  stroke-width: 2px;
+}

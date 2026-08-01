@@ -1,0 +1,20 @@
+.function-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: var(--blue500);
+  background: var(--white);
+  border: 1px solid var(--blue500);
+  padding: 16px;
+  border-radius: 16px;
+  height: 48px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.function-button.purple {
+  color: var(--purple500);
+  border-color: var(--purple500);
+}

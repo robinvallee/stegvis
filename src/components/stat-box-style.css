@@ -1,0 +1,113 @@
+/* Bas styling */
+.stat-box {
+  background: var(--gray100);
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid var(--gray300);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.stat-box .body-statistik {
+  color: var(--gray900);
+}
+
+/* Variant för enskild aktivitet */
+.stat-box.default {
+  height: 108px;
+}
+
+.stat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.stat-label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--gray600);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.stat-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.stat-main {
+  display: flex;
+  align-items: center;
+}
+
+.stat-badge {
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.stat-badge.positive {
+  background: var(--green100);
+  color: var(--green700);
+}
+
+.stat-trend.positive {
+  color: var(--green500);
+  font-weight: bold;
+}
+
+.stat-badge.negative {
+  background: var(--red100);
+  color: var(--red600);
+}
+
+.stat-trend.negative {
+  color: var(--red500);
+  font-weight: bold;
+}
+
+/* Variant med graf */
+.stat-box.chart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 162px;
+  background-color: var(--gray100);
+  border-radius: 16px;
+}
+
+.stat-box.chart .stat-header {
+  align-items: flex-start;
+}
+
+.stat-chart-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  height: 60px;
+  width: 100%;
+}
+
+.stat-chart-bar {
+  flex: 1;
+  background-color: var(--gray300);
+  border-radius: 8px;
+  transition: height 0.3s ease;
+}
+
+.stat-chart-bar.active {
+  background-color: var(--blue500);
+}
+
+.stat-box.chart .body-statistik {
+  color: var(--gray900);
+}

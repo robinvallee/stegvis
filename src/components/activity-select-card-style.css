@@ -1,0 +1,22 @@
+.activity-select-card {
+  background-color: var(--gray100);
+  border: 1px solid var(--gray300);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px;
+  height: 88px;
+  width: 118px;
+}
+
+.activity-select-icon {
+  font-size: 32px;
+}
+
+.activity-select-card p {
+  color: var(--gray900);
+  text-align: center;
+}

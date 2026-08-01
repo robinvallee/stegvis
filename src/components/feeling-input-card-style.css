@@ -1,0 +1,51 @@
+.feeling-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+}
+
+.feeling-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  flex: 1;
+}
+
+.feeling-emoji-container {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feeling-emoji {
+  font-size: 24px;
+}
+
+.feeling-option p.small-body {
+  color: var(--gray600);
+}
+
+.feeling-option.active p.small-body {
+  color: var(--gray900);
+}
+
+/* Inaktiva states för varje känsla */
+.feeling-option:nth-child(1) .feeling-emoji-container { background-color: var(--green200); }
+.feeling-option:nth-child(2) .feeling-emoji-container { background-color: var(--yellow200); }
+.feeling-option:nth-child(3) .feeling-emoji-container { background-color: var(--orange200); }
+.feeling-option:nth-child(4) .feeling-emoji-container { background-color: var(--red200); }
+
+/* Aktiva states för varje känsla */
+.feeling-option:nth-child(1).active .feeling-emoji-container { background-color: var(--green500); }
+.feeling-option:nth-child(2).active .feeling-emoji-container { background-color: var(--yellow500); }
+.feeling-option:nth-child(3).active .feeling-emoji-container { background-color: var(--orange500); }
+.feeling-option:nth-child(4).active .feeling-emoji-container { background-color: var(--red500); }

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Kim Toren",
+    "userAvatar": "Här hade en länk till användarens profilbild varit",
+    "status": "Gick en 5 km promenad",
+    "streakCount": 13
+  },
+  {
+    "name": "Emma Bergdahl",
+    "userAvatar": "Här hade en länk till användarens profilbild varit",
+    "status": "Spelade tennis",
+    "streakCount": 23
+  },
+  {
+    "name": "Felicia Sjöström",
+    "userAvatar": "Här hade en länk till användarens profilbild varit",
+    "status": "Joggade 10 km",
+    "streakCount": 15
+  }
+]

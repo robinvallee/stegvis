@@ -1,0 +1,58 @@
+.friend-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 16px;
+  padding: 16px;
+  border: 1px solid var(--gray300);
+}
+
+.friend-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.friend-info .small-body {
+  color: var(--gray600);
+}
+
+.friend-details {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.friend-name-row {
+  display: flex;
+  align-items: center;
+}
+
+.streak-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: var(--orange500);
+  padding: 0px 4px;
+  gap: 2px;
+}
+
+.streak-container .small-body {
+  color: var(--orange500);
+}
+
+.challenge-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 48px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  border: 1px solid var(--purple500);
+  background-color: var(--white);
+  color: var(--purple500);
+  font-size: 14px;
+}

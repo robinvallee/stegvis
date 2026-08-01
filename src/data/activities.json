@@ -1,0 +1,8 @@
+[
+  { "id": "yoga", "label": "Yoga", "icon": "🧘" },
+  { "id": "tennis", "label": "Tennis", "icon": "🎾" },
+  { "id": "pingis", "label": "Pingis", "icon": "🏓" },
+  { "id": "spring", "label": "Spring", "icon": "🏃" },
+  { "id": "simning", "label": "Simning", "icon": "🏊" },
+  { "id": "hockey", "label": "Hockey", "icon": "🏒" }
+]

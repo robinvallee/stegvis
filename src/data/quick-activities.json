@@ -1,0 +1,5 @@
+[
+  { "id": "fotboll", "label": "Fotboll", "icon": "⚽" },
+  { "id": "promenad", "label": "Promenad", "icon": "👟" },
+  { "id": "basket", "label": "Basket", "icon": "🏀" }
+]

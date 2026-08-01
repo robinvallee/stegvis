@@ -1,0 +1,29 @@
+{
+  "groupChallenges": [
+    {
+      "title": "Oktober stegutmaning",
+      "stat": "1,000,000 steg",
+      "daysLeft": "13 dagar kvar",
+      "groupProgress": 35,
+      "myProgress": 73,
+      "tagText": "Miljonmånaden"
+    },
+    {
+      "title": "Höstkrigare",
+      "stat": "1,000 träningspass",
+      "daysLeft": "46 dagar kvar",
+      "groupProgress": 64,
+      "myProgress": 56,
+      "tagText": "Höstkrigare"
+    }
+  ],
+  "myChallenges": [
+    {
+      "title": "Cardio-kingen",
+      "stat": "Träna cardio 200 gånger",
+      "daysLeft": "97 dagar kvar",
+      "myProgress": 56,
+      "tagText": "Cardio-king"
+    }
+  ]
+}

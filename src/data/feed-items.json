@@ -1,0 +1,25 @@
+[
+  {
+    "userAvatar": "Här hade en länk till användarens profilbild varit", 
+    "userName": "Alex Johansson",
+    "logText": "gick på en 3 km promenad",
+    "timeAgo": "2h",
+    "achievementText": "Streak",
+    "stats": { "activeTime": "40 min", "distance": "3 km", "calories": "231 kcal" }
+  },
+  {
+    "userAvatar": "Här hade en länk till användarens profilbild varit",
+    "userName": "Felicia Sjöström",
+    "logText": "joggade 6 km på 47 minuter",
+    "timeAgo": "14h",
+    "achievementText": "Personliga bästa",
+    "stats": { "activeTime": "47 min", "distance": "6 km", "calories": "476 kcal" }
+  },
+  {
+    "userAvatar": "Här hade en länk till användarens profilbild varit",
+    "userName": "Kim Toren",
+    "logText": "klarade arm day på gymmet",
+    "timeAgo": "1d",
+    "stats": { "activeTime": "1h 30 min", "calories": "175 kcal" }
+  }
+]

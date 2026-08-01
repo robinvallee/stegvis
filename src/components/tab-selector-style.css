@@ -1,0 +1,27 @@
+.tab-selector {
+  display: flex;
+  background-color: var(--gray200);
+  border-radius: 20px;
+  padding: 4px;
+  width: 100%;
+  gap: 8px;
+  height: 44px;
+}
+
+.tab-selector-item {
+  width: 100%;
+  border-radius: 32px;
+  border: none;
+  background: transparent;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--gray600);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tab-selector-item.active {
+  background-color: var(--gray100);
+  color: var(--gray900);
+}

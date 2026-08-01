@@ -1,0 +1,54 @@
+.breakdown-card {
+  background-color: var(--gray100);
+  border: 1px solid var(--gray300);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.chart-container:active {
+  border: 0;
+}
+
+.activity-list-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.activity-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: var(--gray100);
+  border: 1px solid var(--gray300);
+  border-radius: 16px;
+}
+
+.activity-list-item p {
+  color: var(--gray900);
+}
+
+.activity-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.activity-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}

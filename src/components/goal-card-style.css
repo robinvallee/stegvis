@@ -1,0 +1,57 @@
+.goal-card {
+  background: var(--gray100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;  
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid var(--gray300);
+  width: 181px;
+  height: 162px;
+}
+
+.goal-card-header {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  width: 100%;
+}
+
+.goal-progress-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.goal-progress-bar-container {
+  background: var(--gray200);
+  padding: 4px;
+  position: relative;
+  border-radius: 100px;
+  width: 100%;
+}
+
+.goal-progress-bar {
+  background: var(--gray900);
+  height: 8px;
+  border-radius: 100px;
+  box-shadow: var(--box-shadow);
+}
+
+
+.goal-card p {
+  color: var(--gray600);
+}
+
+.goal-card .body-statistik {
+  color: var(--gray900);
+}
+
+.goal-card .small-body {
+  color: var(--gray600);
+}

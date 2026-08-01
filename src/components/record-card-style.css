@@ -1,0 +1,51 @@
+.record-card {
+  background-color: var(--gray100);
+  border: 1px solid var(--gray300);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+}
+
+.record-details-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   gap: 8px;
+   height: 100%;
+}
+
+.record-details {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-start;
+   gap: 4px;
+   height: 32px;
+}
+
+.record-icon {
+   font-size: 32px;
+   height: 48px;
+   width: 48px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.record-details h3 {
+   color: var(--gray900);
+}
+
+.record-details p {
+   color: var(--gray700);
+}
+
+.body-statistik {
+   color: var(--gray900);
+}

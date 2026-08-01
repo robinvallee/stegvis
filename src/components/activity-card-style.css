@@ -1,0 +1,79 @@
+.activity-card {
+  background-color: var(--gray100);
+  box-sizing: border-box;
+  display: flex;
+  height: 96px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  position: relative;
+  border-radius: 16px;
+  flex-shrink: 0;
+  width: 370px;
+  border: 1px solid var(--gray300);
+}
+
+.activity-card-content {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.activity-emoji {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+}
+
+.activity-emoji p {
+   font-size: 24px;
+}
+
+.activity-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.activity-stats {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.activity-stat {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.activity-stat-icon {
+  position: relative;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+}
+
+.activity-stat p {
+  color: var(--gray600);
+}
+
+h3 {
+  color: var(--gray900);
+}
