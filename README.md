@@ -20,7 +20,6 @@ This repository contains the coded high-fidelity prototype, built with React and
 - [React 19](https://react.dev/) + [Vite](https://vite.dev/)
 - [React Router](https://reactrouter.com/) for navigation
 - [Recharts](https://recharts.org/) for the breakdown chart
-- [Lucide](https://lucide.dev/) icons
 - Plain CSS with design tokens (color scales as CSS custom properties in `src/index.css`)
 
 ## Getting started
